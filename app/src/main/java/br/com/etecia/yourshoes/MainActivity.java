@@ -10,9 +10,19 @@ public class MainActivity extends AppCompatActivity {
     ListView idLista;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        idLista = findViewById(R.id.idLista);
+
+        //idLista.setAdapter();
+
+
+
     }
+
 }
