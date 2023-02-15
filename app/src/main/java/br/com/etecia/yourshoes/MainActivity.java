@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     String titulo [] = {"Camisa do Vasco",
             "Camisa do Real Madrid",
             "Camisa do Barcelona",
-            "Camisa do Brasil",
+            "Camisa do Brasil"
     };
 
     String preco [] = {"R$ 199,99",
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     double rating [] = {3,
             5,
             5,
-            5,
+            5
     };
 
 
