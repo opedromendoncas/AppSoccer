@@ -16,11 +16,34 @@ public class MainActivity extends AppCompatActivity {
 
     ListView idLista;
 
-    String titulo [] = {"Camisa do Vasco", "Camisa Real Madrid", "Camisa Barcelona"};
-    String preco [] = {"R$ 199,99", "R$ 399,99", "R$ 349,99"};
-    String desc [] = {"Vamos juntos empurrar o Vascão a escrever um novo capítulo em sua história", "Para os pequenos torcerem dentro ou fora dos estádios", "Destaque-se na torcida, com essa Camisa Barcelona"};
-    int imagem [] = {R.drawable.vasco, R.drawable.real, R.drawable.barcelona};
-    double rating [] = {3, 5, 5};
+    String titulo [] = {"Camisa do Vasco",
+            "Camisa do Real Madrid",
+            "Camisa do Barcelona",
+            "Camisa do Brasil",
+    };
+
+    String preco [] = {"R$ 199,99",
+            "R$ 399,99",
+            "R$ 349,99",
+            "349,99"
+    };
+
+    String desc [] = {"Vamos juntos empurrar o Vascão a escrever um novo capítulo em sua história.",
+            "Para os pequenos torcerem dentro ou fora dos estádios.",
+            "Destaque-se na torcida, com essa Camisa do Barcelona.",
+            "Para você demonstrar todo seu amor pela Seleção Brasileira durante a Copa ou outros jogos."
+    };
+
+    int imagem [] = {R.drawable.vasco,
+            R.drawable.real,
+            R.drawable.barcelona,
+            R.drawable.brasil
+    };
+    double rating [] = {3,
+            5,
+            5,
+            5,
+    };
 
 
     @Override
